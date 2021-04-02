@@ -243,8 +243,7 @@ namespace Bme121
             string[ ] letters = { "a","b","c","d","e","f","g","h","i","j","k","l",
                 "m","n","o","p","q","r","s","t","u","v","w","x","y","z"};
              
-             
-                
+                           
             // Draw the top board boundary.
             
             Write( "    " );
@@ -264,7 +263,6 @@ namespace Bme121
                 else                                Write( "{0}", hb );
             }
             WriteLine( );
-            
             
             
             
@@ -407,7 +405,7 @@ namespace Bme121
                 board[pRowRemoveA, pColRemoveA] = false; // tile is now removed
                 isPossible = true;
             }
-          }
+        } 
             
             DrawGameBoard();
 
